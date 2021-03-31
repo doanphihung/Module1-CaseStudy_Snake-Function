@@ -5,8 +5,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #1e3434;
 }
 canvas {
-    box-shadow: #665555 20px 10px 50px;
-    background-color: #2d6166;
+    box-shadow: black 20px 10px 50px;
+    background-color: #0F111D;
+    border: 1px dotted white;
+}
+h1 {
+    font-size: 30px;
+    height: 40px;
+    color: #696363;
+    /*text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;*/
 }
