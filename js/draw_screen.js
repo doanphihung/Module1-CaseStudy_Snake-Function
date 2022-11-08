@@ -113,7 +113,7 @@ function draw() {
               gradient.addColorStop("1.0", "red");
               // Fill with gradient
               ctx.fillStyle = gradient;
-              ctx.fillText("Game Over!", canvas.width / 6, canvas.height / 2);
+              ctx.fillText("DLinh gà quáa!", canvas.width / 6, canvas.height / 2);
               clearInterval(game);
               dead.play();
           }
